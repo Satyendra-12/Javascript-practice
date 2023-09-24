@@ -14,3 +14,6 @@ console.log(b.trim())
 
 let k= "orange grapes banana tomato"
 console.log(k.split(" "))
+
+let url = "http://www.orange.com"
+console.log(url.replace('orange','banana'))

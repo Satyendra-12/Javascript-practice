@@ -19,4 +19,4 @@ console.log(obj)
 let obj1 = obj
 
 obj1.name = "Amar"
-console.log(obj1)
+console.log(obj)
