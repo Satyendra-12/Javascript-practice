@@ -10,10 +10,15 @@ array.shift() // remove elements from starting index
 console.log(array)
 array.unshift(4) // add element at start of array  
 console.log(array)
+
+
 console.log(array.includes("satyendra"))
 let a = array.join()
 console.log(a)
 console.log(typeof(a))
+
+
+
 
 console.log("a",array)
 console.log(array.slice(1,3)) // not change actual array and range will not be included
