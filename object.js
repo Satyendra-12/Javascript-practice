@@ -1,21 +1,21 @@
 
-// const mySym = Symbol("key1")  // create a symbol add this in an object and print the value
+const mySym = Symbol("key1")  // create a symbol add this in an object and print the value
 
-// const obj ={
-//     name: "satyendra kumar",
-//     [mySym]:"Hi there",
-//     age: 22,
-//     email: "sa@gmail.com",
-//     location: "pilibhit",
-//     "hobbie" : "Music listener",
-//     "fav place" : "swarg"    // focus here impoertant can't access using . operator 
-// }
-// console.log(obj)
-// console.log(obj.name)
-// console.log(obj["name"])
-// console.log(obj.hobbie)
-// console.log(obj["fav place"])    // here it is how to access it 
-// console.log(obj[mySym])
+const obj ={
+    name: "satyendra kumar",
+    [mySym]:"Hi there",
+    age: 22,
+    email: "sa@gmail.com",
+    location: "pilibhit",
+    "hobbie" : "Music listener",
+    "fav place" : "swarg"    // focus here impoertant can't access using . operator 
+}
+console.log(obj)
+console.log(obj.name)
+console.log(obj["name"])
+console.log(obj.hobbie)
+console.log(obj["fav place"])    // here it is how to access it 
+console.log(obj[mySym])
 
 
 // obj.age = 21
@@ -42,9 +42,19 @@
 
 
 // destructuring 
-const course = {
+// const course = {
+//     name: "web development",
+//     instructor:"love babbar "
+// }
+// const {instructor} = course
+// console.log(instructor)
+
+const sym = Symbol('k1');
+const ob ={
     name: "web development",
-    instructor:"love babbar "
+    learner: "Satyendra",
+    [sym]:"hello bro"
 }
-const {instructor} = course
-console.log(instructor)
+console.log(ob)
+console.log(ob.name)
+console.log(typeof ob[sym])

@@ -47,3 +47,28 @@ function printArray(arr){
 // printArray(arr)
 // printArray(arr[2])
 printArray([33,45,56,97])
+
+// arrow function 
+const add = (a,b) => {
+    return a+b
+}
+console.log(add(4,5))
+
+const add1 = (a,b) => a+b  // implicit return don't need to write {} and return keyword
+console.log(add1(84,50))
+
+const add2 = (a,b) => (a+b)  
+console.log(add2(841,510))
+
+const objj = () => ({name:"satyendra"})  
+console.log(objj())
+
+
+// const obb = {
+//     userEmail : "vdav",
+//     age: 47
+// }
+// function returnObb(user){
+//     console.log(`my email: ${user.userEmail} and age: ${user.age}`)
+// }
+// returnObb(obb)

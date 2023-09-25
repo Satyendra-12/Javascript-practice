@@ -26,3 +26,10 @@ console.log(1+2+"3")
 console.log(5+"1"+2)
 
 
+let sc = "lk33"
+console.log(typeof sc)
+let sc2 =Number(sc)
+console.log(typeof sc2)
+console.log(sc2)
+
+
