@@ -42,9 +42,9 @@
 // let res = a.toString()
 // console.log(res,typeof(res))
 
-// let arr = ['a','b','c','d']
-// // console.log(arr)
-// console.log(arr.join(' '))
+let arr = ['a','b','c','d']
+// console.log(arr)
+console.log(arr.join(' '))
 
 
 // setTimeout(function greeting(){
@@ -66,7 +66,7 @@
 // }, 2000)
 
 
-function greeting(name){
-    console.log(`hello ${name}, good morning`)
-}
-setInterval(greeting,3000, "Neha")
+// function greeting(name){
+//     console.log(`hello ${name}, good morning`)
+// }
+// setInterval(greeting,3000, "Neha")
