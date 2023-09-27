@@ -13,12 +13,12 @@
 
 
 // map function
-// const arr = [2,4,5,6,7];
-// function findMulti(x){
-//   return x*2;
-// }
+const arr = [2,4,5,6,7];
+function findMulti(x){
+  return x*2;
+}
 
-// console.log(arr.map(findMulti));
+console.log(arr.map(findMulti));
 
 const arrr = [1,2,3,4,5,6,7,8,9];
 function findOdd(x){

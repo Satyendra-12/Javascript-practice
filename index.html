@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Code aur chai</h1> -->
+    <!-- <h1>javascript</h1> -->
+    <!-- <h2>React js</h2>
+    <ul>
+        <li class="listItem">one</li>
+        <li class="listItem">two</li>
+        <li class="listItem">three</li>
+    </ul> -->
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+    
+
+</body>
+<script>
+
+    function addLang(lang){    
+    let li = document.createElement('li')
+    li.innerHTML = `${lang}`  
+    document.querySelector('.language').appendChild(li)
+    }
+    addLang('python')
+    addLang('php')
+
+function addOptiLang(lang){
+    let li = document.createElement('li')
+    li.appendChild(document.createTextNode(lang))
+    document.querySelector('.language').appendChild(li)
+}
+addOptiLang('golang')
+
+// edit
+let secondlang = document.querySelector('li:nth-child(2)')
+let newLi = document.createElement('li')
+newLi.textContent = 'mojo'
+secondlang.replaceWith(newLi)
+
+
+
+let editLang = document.querySelector('li:first-child')
+editLang.outerHTML = '<li>Ruby</li>'
+
+let removeLang = document.querySelector('li:first-child')
+removeLang.remove()
+
+
+</script>
+</html>

@@ -66,11 +66,13 @@
 //     console.log(i,':',obj[i]);
 // }
 
-const arr1 = [3,5,6,7,8,9,0]
-for (const i in arr1) {
-    // console.log(i) // it will print only key
-    console.log(arr1[i]) 
-}
+// const arr1 = [3,5,6,7,8,9,0]
+// for (const i in arr1) {
+//     // console.log(i) // it will print only key
+//     console.log(arr1[i]) 
+// }
+
+// for in loop - it doesn't work with maps
 
 // const map1 =  new Map()
 // map1.set('js','javascript')

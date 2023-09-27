@@ -13,7 +13,7 @@ let array = [3,5,6,7,7,8,"satyendra", true];
 
 
 console.log(array.includes("satyendra"))
-let a = array.join()
+let a = array.join('')
 console.log(a)
 console.log(typeof(a))
 
@@ -41,5 +41,5 @@ console.log(typeof(a))
 // let r = 22
 // console.log(Array.of(p, q, r))
 
-// let name = 'Satyendra'
-// console.log(Array.from(name))
+let name = 'Satyendra'
+console.log(Array.from(name))

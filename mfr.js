@@ -1,9 +1,9 @@
-// const arr = ['js','cpp','c', 'ruby','php']
+const arrr1 = ['js','cpp','c', 'ruby','php']
 
-// const values = arr.forEach((item)=>{
-//     console.log(item)
-// })
-// console.log(values)      // for each loop not return anything
+const values = arrr1.forEach((item)=>{
+    console.log(item)
+})
+console.log(values)      // for each loop not return anything
 
 
 //filter
@@ -58,8 +58,8 @@ const arr = [
     }
 ]
 
-// const a = arr.filter((bk)=>bk.genre === 'science')
-// console.log(a)
+const a = arr.filter((bk)=>bk.genre === 'science')
+console.log(a)
 
 //  const array = [2,3,4,5,6,7]
 // //  const c = array.map((i)=> i+5)c
@@ -86,3 +86,8 @@ const num =arr1.reduce((acc,currVal)=>{
 },0)
 console.log(num)
 
+let ar = [2,33,4,5,6]
+// let av = ar.map((item)=> item)
+// console.log(av)
+
+console.log(ar.map((item)=> item))
