@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+  </head>
+  <body>
+    <h1>Images</h1>
+    <ul id="images">
+      <li>
+        <img
+          height="150px"
+          width="150px"
+          id="one"
+          src="images/160-1600378_transparent-happy-person-png-happy-man-face-png.png"
+          alt="first"
+        />
+      </li>
+      <li>
+        <img
+          height="150px"
+          width="150px"
+          id="two"
+          src="images/girls image.jpg"
+          alt="second"
+        />
+      </li>
+      <li>
+        <img
+          height="150px"
+          width="150px"
+          id="three"
+          src="images/istockphoto-1256127007-612x612.jpg"
+          alt="thrird"
+        />
+      </li>
+      <li>
+        <img
+          height="150px"
+          width="150px"
+          id="four"
+          src="images/satyendra kumar.jpeg"
+          alt="fourth"
+        />
+      </li>
+    </ul>
+  </body>
+  <script>
+    // document.getElementById('one').onclick =function(){
+    //     console.log('one clicked');
+    // }
+
+    //propagation - event bubbling
+    // document.getElementById("images").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     e.preventDefault();
+    //     console.log("parent  clicked");
+    //   },
+    //   false
+    // );
+
+    // document.getElementById("one").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     e.preventDefault();
+    //     console.log("child clicked");
+    //   },
+    //   false
+    // );
+
+    // document.getElementById("images").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     e.preventDefault();
+    //     console.log("parent  clicked");
+    //   },
+    //   true
+    // );
+
+    // document.getElementById("one").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     e.preventDefault();
+    //     console.log("child clicked");
+    //   },
+    //   true
+    // );
+
+    document.querySelector("#images").addEventListener('click',function(e) {
+        console.log(e.target.parentNode)
+        console.log(e.target.tagName)
+        if(e.target.tagName=== 'IMG'){
+            let removeIt = e.target.parentNode
+            removeIt.remove();
+        }
+        
+        // removeIt.remove();
+    })
+
+
+
+
+
+
+  </script>
+</html>
