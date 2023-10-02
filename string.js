@@ -6,7 +6,8 @@ console.log(s.indexOf('d'))
 let p ="kumar"
 console.log(s.concat(" ",p))
 console.log(s.substring(0,4))
-console.log(s.slice(-1,3))
+// let x = p.slice(-3)
+// console.log(x)
 
 let b = "  Pilibhit  "
 console.log(b)

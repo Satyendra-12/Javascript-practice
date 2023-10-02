@@ -13,8 +13,9 @@ const obj ={
 console.log(obj)
 console.log(obj.name)
 console.log(obj["name"])
-console.log(obj.hobbie)
-console.log(obj["fav place"])    // here it is how to access it 
+// console.log(obj.hobbie)
+console.log(obj["fav place"])
+console.log(obj.age)    // here it is how to access it 
 console.log(obj[mySym])
 
 

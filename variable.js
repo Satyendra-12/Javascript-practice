@@ -13,15 +13,34 @@
 
 
 // function statement - we define a function  on regular basis and can execute it before declaration
-console.log(sum(3,4))
-function sum(a,b) {
-    return a + b;
-}
 // console.log(sum(3,4))
+// function sum(a,b) {
+//     return a + b;
+// }
+// // console.log(sum(3,4))
 
-// function expression - assigning a function to a variable and can't execute it before declaration
+// // function expression - assigning a function to a variable and can't execute it before declaration
+// // console.log(summ(4,6))
+// const summ = function(a,b) {
+//     return a + b;
+// }
 // console.log(summ(4,6))
-const summ = function(a,b) {
-    return a + b;
-}
-console.log(summ(4,6))
+
+
+// var s =5;
+// console.log(s)
+//  var s = 9
+//  console.log(s)
+
+
+//  let s =5;
+//  console.log(s)
+// //  let s = 9
+//  s =9
+//   console.log(s)
+ 
+
+// const s =9
+// console.log(s)
+// s=19
+// console.log(s)

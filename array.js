@@ -12,10 +12,10 @@ let array = [3,5,6,7,7,8,"satyendra", true];
 // console.log(array)
 
 
-console.log(array.includes("satyendra"))
-let a = array.join('')
-console.log(a)
-console.log(typeof(a))
+// console.log(array.includes("satyendra"))
+// let a = array.join('')
+// console.log(a)
+// console.log(typeof(a))
 
 
 
@@ -26,8 +26,8 @@ console.log(typeof(a))
 // console.log(array.splice(1,3)) // change actual array and range will be included
 // console.log('c',array)
 
-// let marval = ["ironman", "thor", "loki"]
-// let dc = ["batman", "flash","superman"]
+let marval = ["ironman", "thor", "loki"]
+let dc = ["batman", "flash","superman"]
 // // marval.push(dc)
 // console.log(marval)
 // let all_heroes = marval.concat(dc)
@@ -43,3 +43,24 @@ console.log(typeof(a))
 
 let name = 'Satyendra'
 console.log(Array.from(name))
+
+
+
+// let arr =[1 ,2 ,3, 'fdg', true]
+
+// arr.push(8)
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+// arr.unshift(8)
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+// console.log(arr)
+
+// let arr1 = arr.slice(0,3)
+// console.log(arr1)
+
+// console.log(arr)
+
+// console.log(arr.splice(0,4))
